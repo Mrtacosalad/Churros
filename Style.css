@@ -1,9 +1,110 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
-/* 
-    Created on : Nov 4, 2024, 9:47:35 AM
-    Author     : LuisS
-*/
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf4e4;
+}
+
+header {
+    background-color: #d35400; /* Cinnamon color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px #a04000;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styling */
+h2 {
+    color: #d35400;
+    border-bottom: 2px solid #d35400;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* List Styling */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    padding: 8px 0;
+}
+
+/* Churro Section Highlight */
+section:first-of-type {
+    background-color: #fae3cd;
+    padding: 15px;
+    border-left: 5px solid #d35400;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Costco's Corner of Shame */
+section:nth-of-type(3) {
+    background-color: #f8d7da;
+    padding: 15px;
+    border-left: 5px solid #c9302c;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(3) h2 {
+    color: #c9302c;
+}
+
+section:nth-of-type(3) p {
+    font-style: italic;
+    color: #a94442;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Special Touches */
+header h1:hover {
+    color: #f1c40f;
+}
+
+ul li::before {
+    content: "🍩";
+    padding-right: 8px;
+}
+
+section:first-of-type h2::after {
+    content: " 💖";
+}
+
+footer:hover {
+    background-color: #d35400;
+}
 
